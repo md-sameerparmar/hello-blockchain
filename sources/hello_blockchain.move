@@ -57,3 +57,9 @@ module hello_blockchain::message {
         );
     }
 }
+//  write this command in your terminal
+
+// aptos move compile --named-addresses hello_blockchain=default
+// aptos move test --named-addresses hello_blockchain=default
+// aptos move publish --named-addresses hello_blockchain=default
+// aptos move run --function-id 'default::message::set_message' --args 'string:hello, blockchain'
